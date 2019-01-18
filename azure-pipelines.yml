@@ -13,6 +13,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+  system.debug: 'true'
 
 steps:
 - task: NuGetToolInstaller@0
@@ -35,5 +36,5 @@ steps:
     configuration: '$(buildConfiguration)'
     vsTestVersion: toolsInstaller
     customBatchSizeValue: 10
-    batchingBasedOnAgentsOption: customBatchSize
+    #batchingBasedOnAgentsOption: customBatchSize
     testAssemblyVer2: '**/*SeleniumHang.dll'
