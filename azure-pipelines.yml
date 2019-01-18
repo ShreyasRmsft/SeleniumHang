@@ -34,3 +34,4 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
     vsTestVersion: toolsInstaller
+    customBatchSizeValue: 10
