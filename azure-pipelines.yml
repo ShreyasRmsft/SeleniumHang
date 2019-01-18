@@ -38,3 +38,4 @@ steps:
     customBatchSizeValue: 10
     #batchingBasedOnAgentsOption: customBatchSize
     testAssemblyVer2: '**/*SeleniumHang.dll'
+    
