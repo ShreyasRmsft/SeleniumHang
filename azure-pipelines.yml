@@ -35,3 +35,4 @@ steps:
     configuration: '$(buildConfiguration)'
     vsTestVersion: toolsInstaller
     customBatchSizeValue: 10
+    batchingBasedOnAgentsOption: customBatchSize
